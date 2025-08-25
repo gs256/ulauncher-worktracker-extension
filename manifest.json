@@ -1,0 +1,19 @@
+{
+    "required_api_version": "2",
+    "name": "Worktracker extension",
+    "description": "Extension Description",
+    "developer_name": "John Doe",
+    "icon": "images/icon.png",
+    "options": {
+        "query_debounce": 0.1
+    },
+    "preferences": [
+        {
+            "id": "worktracker_kw",
+            "type": "keyword",
+            "name": "Worktracker",
+            "description": "Demo extension",
+            "default_value": "work"
+        }
+    ]
+}
